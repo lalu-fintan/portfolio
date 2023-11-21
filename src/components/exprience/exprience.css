@@ -1,0 +1,55 @@
+.exp-container {
+  width: auto;
+  display: flex;
+}
+
+.role {
+  color: var(--role-col);
+  justify-content: end;
+}
+
+.role-con {
+  float: right;
+}
+
+.exp-list {
+  list-style-type: disc;
+  list-style: var(--role-col);
+  font-size: 14px;
+  font-style: italic;
+  margin: 8px 0 8px 0px;
+}
+
+.line {
+  border: 2px;
+  width: 2px;
+  max-height: auto;
+  background-color: var(--role-col);
+}
+
+.left-half {
+  /* width: 50%; */
+  align-self: center;
+}
+
+.right-half {
+  /* width: 50%; */
+  flex: 1;
+  padding-left: 40px;
+}
+
+.left-half h3 {
+  padding-right: 41px;
+  text-align: end;
+}
+
+.role {
+  text-align: right;
+  padding-right: 35px;
+}
+
+.duration {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 14px;
+}

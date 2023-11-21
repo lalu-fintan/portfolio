@@ -1,0 +1,7 @@
+.contact {
+  flex-direction: column;
+}
+
+.btn--outline {
+  border-radius: 5px;
+}
